@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+
+        <link href="../static/styles.css" rel="stylesheet">
+
+        <title>sharooooone</title>
+
+        <link rel = "shortcut icon" href ="../static/images/logo.ico"
+        type = "image/x-icon">
+
+    </head>
+    <body>
+
+      <div class="navbar">
+        <a class="red" href="/">home</a>
+        <a class="blu" href="/about">about</a>
+        <a class="green" href="/komix">comics</a>
+        <a class="red"href="/drawings">drawings</a>
+        <a class="blu"href="/clothing">clothing</a>
+        <a class="green"href="/contact">contact</a>
+      </div>
+
+      <main class="container p-5">
+            {% block main %}{% endblock %}
+        </main>
+
+    </body>
+</html>

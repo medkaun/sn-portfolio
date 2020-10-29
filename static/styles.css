@@ -1,0 +1,92 @@
+html{
+  height: 100%;
+  background-color: #5afacf;
+  cursor: url('/images/suo.png'), auto;
+}
+
+.button {
+  width: 50%;
+  background-color: transparent;
+  border: none;
+}
+
+img {
+  width: 100%;
+}
+
+.logo {
+  width: 50%;
+  position: absolute;
+  left: 25%;
+  z-index: 10;
+}
+
+.about{
+  width: 40%;
+  position: absolute;
+  top: 55%;
+  left: 3%;
+
+}
+
+.drawings{
+  width: 35%;
+  position: absolute;
+  left: 10%;
+  top: 115%;
+  z-index: 10;
+}
+
+.comics{
+  position: absolute;
+  width: 30%;
+  left: 55%;
+  top: 45%;
+}
+
+.clothing{
+  position: absolute;
+  width: 40%;
+  left: 50%;
+  top: 150%;
+  z-index: 10;
+}
+
+.contact{
+  position: absolute;
+  width: 20%;
+  left: 25%;
+  top: 200%;
+}
+
+.navbar a{
+  float: left;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: arial;
+}
+
+.red{
+  color: red;
+}
+
+.blu{
+  color: blue;
+}
+
+.green{
+  color:green;
+}
+
+.clothes, .shmuck{
+  width: 80%;
+  position: relative;
+  left: 10%;
+}
+
+.draw{
+  width: 60%;
+  left: 30%;
+}
